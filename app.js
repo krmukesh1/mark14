@@ -1,11 +1,8 @@
 var initialPrice = document.querySelector("#initial-price");
 var stockQuantity = document.querySelector("#stocks-quantity");
 var currentPrice = document.querySelector("#current-price");
-
 var submitBtn = document.querySelector("#submit-btn");
 var Output = document.querySelector("#output");
-
-submitBtn.addEventListener("click", submitHandler);
 
 function submitHandler() {
   var ip = Number(initialPrice.value);
@@ -38,3 +35,4 @@ function calculateProfitAndLoss(initial, quantity, current) {
 function message(msg) {
   Output.innerText = msg;
 }
+submitBtn.addEventListener("click", submitHandler);
