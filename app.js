@@ -1,5 +1,5 @@
 var initialPrice = document.querySelector("#initial-price");
-var stockQuantity = document.querySelector("#stock-quantity");
+var stockQuantity = document.querySelector("#stocks-quantity");
 var currentPrice = document.querySelector("#current-price");
 
 var submitBtn = document.querySelector("#submit-btn");
